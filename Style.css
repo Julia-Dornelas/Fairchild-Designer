@@ -6,38 +6,65 @@ font-family: 'Didact Gothic', sans-serif;
 font-family: 'Gaegu', cursive;
 */
 
-:root{
+:root {
     --CorBanner: #C792F6;
     --CorPrincipal: #AA77D9;
-    --CorSecundaria:#8E5DBC;
-    --CorTerciaria:#E5AEFF;
-    --CorExtra:#FFCBFF;
+    --CorSecundaria: #8E5DBC;
+    --CorTerciaria: #E5AEFF;
+    --CorExtra: #FFCBFF;
 }
-header{
+
+header {
     background-color: var(--CorBanner);
+
 }
-*{
+
+* {
     margin: 0;
     padding: 0;
 }
 
-footer{
-    background-color: var(--CorBanner);
-   
+hr {
+    color: var(--CorSecundaria);
+    text-align: center;
 }
 
-pre{
+
+footer {
+    background-color: var(--CorBanner);
+
+}
+
+pre {
     text-align: center;
     font-family: 'Didact Gothic', sans-serif;
 }
+
 /*Classes*/
 
-.banner{
-      display: inline-block;
-      background-color: var(--CorBanner);
+
+.h1sub {
+    font-family: 'Didact Gothic', sans-serif;
+    color: var(--CorSecundaria);
 }
 
-.titulo-principal{
+.h1subb {
+    font-family: 'Didact Gothic', sans-serif;
+    color: var(--CorPrincipal);
+}
+
+.subtitulo {
+    color: var(--CorSecundaria);
+    font-family: 'Didact Gothic', sans-serif;
+    text-align: center;
+}
+
+.banner {
+    display: inline-block;
+    background-color: var(--CorBanner);
+}
+
+.titulo-principal {
     font-family: 'Dancing Script', cursive;
     font-size: 80px;
     background-color: var(--CorBanner);
@@ -45,28 +72,67 @@ pre{
     border-bottom: 4px var(--CorBanner) solid;
     text-align: center;
 }
-.texto-principal{
-     font-family: 'Didact Gothic', sans-serif;
-     text-align: center;
+
+.texto-principal {
+    font-family: 'Didact Gothic', sans-serif;
+    text-align: center;
+    font-size: 20px;
 }
 
 .buttonClass {
     font-family: 'Didact Gothic', sans-serif;
     text-decoration: none;
     display: inline-block;
-    width:200px;
-    height:25px;
-    border-width:1px;
-    border-top-left-radius:10px;
-    border-bottom-right-radius:10px;
-    color:#fff;
-    border-color:3px rgba(0, 0, 0, 0);
-    background:var(--CorPrincipal);
-  }
+    font-size: 20px;
+    width: 150px;
+    height: 25px;
+    border-width: 1px;
+    color: black;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background: var(--CorPrincipal);
+    text-align: center;
+}
+.sabermais{
+    text-align: center;
+}
+.linha {
+    text-align: center;
+}
+.Oque{
+    text-align: center;
+}
+.oque2{
+    text-align: center;
+}
+.oquefazemos{
+    background-color: var(--CorPrincipal);
+    display: inline-block;
+    border:3px black solid;
+    font-family: 'Didact Gothic', sans-serif;
+    text-align: center;
+    width: 300px;
+    height: auto;
+}
+
+.fazemos{
+    background-color: var(--CorPrincipal);
+    display: inline-block;
+    border:3px black solid;
+    font-family: 'Didact Gothic', sans-serif;
+    text-align: center;
+    width: 300px;
+    height: auto;
+}
+
+.cadastro{
+    border: 3px black solid;
+    text-align: center;
+}
 
 /*Id's*/
 
-#banner{
+#banner {
     text-align: center;
     margin: auto;
     width: 75%;
