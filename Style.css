@@ -41,7 +41,54 @@ pre {
 }
 
 /*Classes*/
+.loginn {
+    background-color: var(--CorBanner);
 
+}
+
+.logins {
+    font-family: 'Didact Gothic', sans-serif;
+    text-decoration: none;
+    background-color: var(--CorBanner);
+
+    display: inline-block;
+    width: 170px;
+    font-size: 10px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.cadastros {
+    text-align: center;
+    text-decoration: none;
+}
+
+.cadastro {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 3px black solid;
+}
+
+.titulo-login {
+    background-color: var(--CorPrincipal);
+    margin: auto;
+    border-radius: 15px;
+    width: 300px;
+    text-align: center;
+}
+
+.lc{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
 
 .h1sub {
     font-family: 'Didact Gothic', sans-serif;
@@ -93,39 +140,44 @@ pre {
     background: var(--CorPrincipal);
     text-align: center;
 }
-.sabermais{
+
+.sabermais {
     text-align: center;
 }
+
 .linha {
     text-align: center;
 }
-.Oque{
+
+.Oque {
     text-align: center;
 }
-.oque2{
+
+.oque2 {
     text-align: center;
 }
-.oquefazemos{
+
+.oquefazemos {
     background-color: var(--CorPrincipal);
     display: inline-block;
-    border:3px black solid;
+    border: 3px black solid;
     font-family: 'Didact Gothic', sans-serif;
     text-align: center;
     width: 300px;
     height: auto;
 }
 
-.fazemos{
+.fazemos {
     background-color: var(--CorPrincipal);
     display: inline-block;
-    border:3px black solid;
+    border: 3px black solid;
     font-family: 'Didact Gothic', sans-serif;
     text-align: center;
     width: 300px;
     height: auto;
 }
 
-.cadastro{
+.cadastro {
     border: 3px black solid;
     text-align: center;
 }
@@ -136,4 +188,15 @@ pre {
     text-align: center;
     margin: auto;
     width: 75%;
+}
+
+#login {
+    border: 3px black solid;
+    height: 250px;
+    width: 320px;
+    text-align: center;
+    display: inline-block;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
