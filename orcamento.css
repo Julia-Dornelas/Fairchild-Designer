@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Didact+Gothic&family=Gaegu&display=swap');
+
+/*
+font-family: 'Dancing Script', cursive; 
+font-family: 'Didact Gothic', sans-serif;
+font-family: 'Gaegu', cursive;
+*/
+
+:root {
+    --CorBanner: #C792F6;
+    --CorPrincipal: #AA77D9;
+    --CorSecundaria: #8E5DBC;
+    --CorTerciaria: #E5AEFF;
+    --CorExtra: #FFCBFF;
+}
+
+h1 {
+    color: linear-gradient(var(--corBanner), var(--corBanner))padding-box, linear-gradient(to right, #ff30c0, #30ffff)border-box;
+    font-family: 'Didact Gothic', sans-serif;
+    text-align: center;
+}
+
+/*CLASSES*/
+
+
+textarea{
+    margin-bottom: 15px;
+    resize: none;
+    height: 50px;
+    width: 200px;
+    border: 2px solid transparent;
+    background: linear-gradient(white, white)padding-box, linear-gradient(to right,#d978ff, #7623b9)border-box;
+    border-radius: 5px;
+}
+
+select{
+    width: 200px;
+    border: 2px solid transparent;
+    background: linear-gradient(white, white)padding-box, linear-gradient(to bottom, #d978ff, #7623b9);
+    border-radius: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+input {
+  display: block;
+  height: 25px;
+  width: 200px;
+  background-color: white;
+  border: none;
+  border-bottom: 2px solid transparent;
+  background: linear-gradient(white, white)padding-box, linear-gradient(to right, #d978ff, #7623b9)border-box;
+  margin-bottom: 10px;
+}
+
+input::placeholder{
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+input:focus{
+  box-shadow: none;
+  outline: 0;
+}
+
+textarea::placeholder{
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+textarea:focus{
+  box-shadow: none;
+  outline: 0;
+}
+
+select::placeholder{
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+select:focus{
+  box-shadow: 0;
+  outline: 0;
+}
+
+
+p{
+    font-family: 'Didact Gothic', sans-serif; 
+}
+
+button:focus{
+  box-shadow: none;
+  outline: 0;
+}
+
+input:focus textarea:focus select:focus button:focus{
+  box-shadow: 0 0 0;
+  outline: 0;
+  border: 0 none;
+}
+
+option{
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+option:invalid{
+  color: gray;
+}
+
+button{
+    font-family: 'Didact Gothic', sans-serif;
+  border: none;
+  border-radius: 15px;
+  width: 150px;
+  height: 25px;
+  cursor: pointer;
+  background-image: linear-gradient(to right, var(--CorPrincipal), var(--CorTerciaria));
+}
+
+article{
+  text-align: center;
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+/*ID´s*/
+#conteudo-form{
+    display: inline-block;
+    margin-top: 15px;
+}
+
+#coluna1-form{
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+    vertical-align: top;
+}
+
+#coluna2-form{
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+}
+
+#subtitulo-form{
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+/*Classes*/
+.formulario{
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 50px;
+    box-shadow: 0px 0px 29px 8px rgb(113, 12, 160);
+    padding: 50px;
+    bottom: 80px;
+    position: relative;
+    background-color: white;
+}
+
+.formulario h1{
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+.botao{
+  margin-top: 10px;
+}
+
+.contatos{
+  display: inline-block;
+  text-align: center;
+  margin-right: 50px;
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+
+.contatos img{
+  height: 60px;
+  width: 60px;
+  margin-bottom: 10px;
+}
+
+.contatos p{
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+.banner-form{
+  width: 100%;
+  height: 200px;
+  z-index: -1;
+}
+.zap{
+    font-family: 'Didact Gothic', sans-serif;
+    color: var(--CorPrincipal);
+}

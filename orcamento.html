@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="Geral.css" />
+  <link rel="stylesheet" href="orcamento.css">
+</head>
+
+<body>
+
+  <header class="banner">
+
+    <div class="banner">
+      <img class="titulo-principal" src="img/logo.png" alt="" width="250px" />
+    </div>
+
+    <div class="banner" id="banner">
+      <h1 class="titulo-principal">Fairchild Designer</h1>
+    </div>
+    <div class="header-menu menu">
+      <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="#">O que fazemos?</a></li>
+        <li><a href="#">Lojas</a></li>
+        <li><a href="./orcamento.html">Orçamentos</a></li>
+      </ul>   
+    </div>
+  </header>
+
+  <div class="principal">
+    <main>
+      <!--Centralizar-->
+      <div class="banner-form"></div>
+      <!--Inicio do Formulario-->
+      <div class="formulario">
+        <form action="./ContatosOk.html">
+          <p id="subtitulo-form">Para mais informações</p>
+          <h1>Faça seu orçamento:</h1>
+          <p>Ou entre em contato através do Whatsapp.</p>
+          <p class="zap">+55 (34) 99923-2850</p>
+          <div id="conteudo-form">
+            <div id="coluna1-form">
+              <input type="text" name="nome" id="nome" placeholder="Nome completo:" class="input-contato" required>
+
+              <input type="email" name="email" id="email" placeholder="Email:" class="input-contato" required>
+
+              <input type="tel" name="tel" id="tel" placeholder="Telefone:" class="input-contato">
+
+
+              <select name="assunto" id="assunto" placeholder="Assunto" required>
+                <option value="" disabled selected>Assunto</option>
+                <option value="comercial">Orçamento</option>
+                <option value="reclamacao">Parceria</option>
+                <option value="sugestao">Duvidas</option>
+                <option value="atendimento">Atendimento</option>
+                <option value="imprensa">Outro</option>
+              </select>
+            </div>
+
+            <div id="coluna2-form">
+              <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Mensagem:"></textarea>
+
+              <input type="text" id="verificacao" name="verificacao" placeholder="Tipo de serviço:"
+                class="input-contato" required>
+
+            </div>
+
+            <a href="./ContatosOk.html">
+              <div class="botao" id="botao" name="botao">
+                <a href="./ContatosOk.html">
+                  <button>
+                    <p>Enviar Mensagem</p>
+                  </button>
+                </a>
+              </div>
+            </a>
+          </div>
+        </form>
+      </div>
+    </main>
+  </div>
+
+  <footer>
+    <pre
+      class="ctt"> <a href="#"><img class="redes git"  src="img/linkedin.png" alt="" width="30px"></a>   <a href="#"><img class="redes"  src="img/instagram.png" alt="" width="30px"> </a> <a href="#"> <img class="redes git" src="img/github.png" alt="" width="30px"> </a> </pre>
+    <br />
+
+    <p>Site meramente ilustrativo para treino de html e css <br>©️ 2023 design by Júlia Dornelas</p>
+
+  </footer>
+  </footer>
+
+</body>
+
+</html>
